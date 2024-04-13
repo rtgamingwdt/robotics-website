@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import DropdownLink from "./DropdownLink";
+import history from "../resources/history.json";
 
 export default function Navbar({ showBackground }: { showBackground: boolean }) {
 
@@ -17,12 +18,7 @@ export default function Navbar({ showBackground }: { showBackground: boolean }) 
                 ]}>About Us</DropdownLink>
                 <Link href={"/sponsors"}>Sponsors</Link>
                 <Link href={"/past-events"}>Past Events</Link>
-                <DropdownLink href={"/history"} display={[
-                    <Link key={0} href={"/history/2023-crescendo"}>2024 - Crescendo</Link>,
-                    <Link key={0} href={"/history/2023-charged-up"}>2023 - Charged Up</Link>,
-                    <Link key={0} href={"/history/2022-rapid-react"}>2022 - Rapid React</Link>,
-                    <Link key={0} href={"/history/2019-desination-deep-space"}>2019 - Destination Deep Space</Link>,
-                ]}>History</DropdownLink>
+                <DropdownLink href={"/history"} display={history.map((hist) => <Link href={`${hist.year}-${hist.name}`} key={hist.year}>{`${hist.year} - ${hist.name}`}</Link>)}>History</DropdownLink>
                 <Link href={"/resources"}>Resources</Link>
             </div>
         </div>

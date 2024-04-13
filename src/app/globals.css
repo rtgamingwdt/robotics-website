@@ -76,6 +76,7 @@ div.navbar div.right-side div.dropdown-link div.dropdown-card div.item a {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
+  color: white;
 }
 
 div.navbar div.right-side div.dropdown-link div.dropdown-card div.item:hover {
