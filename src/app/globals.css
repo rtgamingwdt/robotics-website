@@ -14,6 +14,7 @@ div.navbar {
   user-select: none;
   position: fixed;
   transition-duration: 250ms;
+  z-index: 1;
 }
 
 div.navbar div.left-side {
@@ -86,11 +87,25 @@ div.navbar div.right-side div.dropdown-link div.dropdown-card div.item:hover {
 /* home-page */
 div.home-hero {
   background-color: orange;
+  background-image: url("/background.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid #27272a;
+  position: relative;
+}
+
+div.home-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 127, 0, 0.5);
 }
 
 div.home-recent-events {
