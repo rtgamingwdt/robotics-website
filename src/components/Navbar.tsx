@@ -5,7 +5,7 @@ import DropdownLink from "./DropdownLink";
 export default function Navbar({ showBackground }: { showBackground: boolean }) {
 
     return (
-        <div className="navbar" style={{ backgroundColor: showBackground ? "#09090b" : "transparent" }}>
+        <div className="navbar" style={{ color: showBackground ? "white" : "black", backgroundColor: showBackground ? "#09090b" : "transparent" }}>
             <div className="left-side">
                 <Image src={""} width={64} height={64} alt="logo" />
                 <h1>Team 7202 - Cyber Orioles</h1>

@@ -46,7 +46,7 @@ div.navbar div.right-side {
 }
 
 div.navbar div.right-side a {
-  color: white;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -92,18 +92,9 @@ div.home-hero {
   border-bottom: 2px solid #27272a;
 }
 
-div.home-info {
-  background-color: white;
-  width: 100%;
-  height: 25rem;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  place-items: center;
-  border-bottom: 2px solid #27272a;
-}
-
 div.home-recent-events {
   background-color: orange;
+  border-bottom: 2px solid #27272a;
 }
 
 div.home-recent-events span {

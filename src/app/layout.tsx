@@ -27,6 +27,12 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <title>Team 7202 - Cyber Orioles</title>
+        <meta name="description" content="The official website of the FRC Team 7202"/>
+        <meta name="keywords" content="Cyber, Orioles, FRC, 7202"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </head>
       <body className={inter.className}>
         <Navbar showBackground={showNavBackground} />
         {children}

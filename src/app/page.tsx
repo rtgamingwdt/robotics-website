@@ -13,11 +13,6 @@ export default function Home() {
         <h1>Cyber Orioles</h1>
         <h2>Team 7202</h2>
       </div>
-      <div className="home-info">
-        <h3>Who We Are</h3>
-        <h3>Our Mission</h3>
-        <h3>Our Core Values</h3>
-      </div>
       <div className="home-recent-events">
         <span className="">Recent Events</span>
         <div className="details">
