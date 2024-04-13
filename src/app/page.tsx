@@ -9,9 +9,12 @@ export default function Home() {
 
   return (
     <div>
-      <div className="home-hero" style={{ width: window.innerWidth, height: window.innerHeight }}>
-        <h1>Cyber Orioles</h1>
-        <h2>Team 7202</h2>
+      <div className="home-hero-container" style={{ width: window.innerWidth, height: window.innerHeight }}>
+        <div className="home-hero" />
+        <div className="center">
+          <h1>Cyber Orioles</h1>
+          <h2>Team 7202</h2>
+        </div>
       </div>
       <div className="home-recent-events">
         <span className="">Recent Events</span>
