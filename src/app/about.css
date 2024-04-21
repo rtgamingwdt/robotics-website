@@ -1,0 +1,23 @@
+div.about-hero-section {
+    display: flex;
+    padding: 5rem;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--border);
+}
+
+div.question-section {
+    background-color: orange;
+    border-bottom: 2px solid var(--border);
+}
+
+div.question-section h2 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+div.question-section p {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
