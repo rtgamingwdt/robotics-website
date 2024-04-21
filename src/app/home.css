@@ -1,0 +1,99 @@
+/* home-page */
+div.home-hero-section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.home-hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    background: url("/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid var(--border);
+}
+
+div.home-hero-section div.center {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+div.home-hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: radial-gradient(circle at 10% 20%, rgba(251, 221, 19, 0.5) 0.1%, rgba(255, 153, 1, 0.5) 90%);
+}
+
+div.sponsors-section {
+    display: flex;
+    flex-direction: column;
+    background: orange;
+}
+
+div.sponsors-layout {
+    display: grid;
+    padding: 1rem;
+    border-bottom: 2px solid var(--border);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-items: center;
+}
+
+
+/* Phone screens */
+@media (max-width: 767px) {
+
+    /* Home page */
+    div.home-hero {
+        width: 100%;
+        height: 100%;
+        background: orange;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid var(--border);
+    }
+
+    div.home-hero-section div.center {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    div.home-hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: radial-gradient(circle at 10% 20%, rgba(251, 221, 19, 0.5) 0.1%, rgba(255, 153, 1, 0.5) 90%);
+    }
+}
