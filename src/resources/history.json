@@ -1,18 +1,87 @@
 [
   {
     "year": 2024,
-    "name": "Crescendo"
+    "name": "Crescendo",
+    "description": "The 2024 CRESCENDO competition in FRC, presented by Haas, is a season that challenges teams to use their STEM skills and creativity to design, build, and program robots for action-packed gameplay. This competition is part of the FIRST Robotics Competition, an international high school robotics competition where teams work together to build robots capable of completing tasks that change annually. The CRESCENDO season emphasizes the importance of turning up the volume in robotics, encouraging teams to push the boundaries of what's possible in robotics and engineering. The competition is designed to inspire students to be science and technology leaders, fostering a culture of Gracious Professionalism and Coopertition, where teams can cooperate and compete at the same time.",
+    "competitions": [
+      {
+        "name": "Kettering University #1",
+        "url": "https://www.thebluealliance.com/event/2024miket"
+      },
+      {
+        "name": "LSSU",
+        "url": "https://www.thebluealliance.com/event/2024milsu"
+      }
+    ],
+    "awards": []
   },
   {
     "year": 2023,
-    "name": "Charged Up"
+    "name": "Charged Up",
+    "description": "The 2023 CHARGED UP competition in FRC, presented by Haas, is a season-long challenge that focuses on the potential of energy storage, aiming to address global challenges related to United Nations Sustainable Development Goal #7. This competition is part of the 2023 FIRST ENERGIZE season, presented by Qualcomm, and encourages teams to explore how renewable energy can be effectively stored and delivered to communities. The season kicked off with the unveiling of the challenge at the 2023 FIRST Robotics Competition Kickoff, attended by thousands of students, mentors, and FIRST supporters worldwide. Teams were introduced to the game field and challenge details for the first time, receiving a Kickoff Kit that includes motors, batteries, control system components, construction materials, and a mix of additional automation components. The competition is designed to encourage students to be inclusive, creative, and confident, leveraging the tools they acquire throughout the program to transform their understanding of energy consumption.",
+    "competitions": [
+      {
+        "name": "Calvin University",
+        "url": "https://www.thebluealliance.com/event/2023mifor"
+      },
+      {
+        "name": "Muskegon",
+        "url": "https://www.thebluealliance.com/event/2023mimus"
+      },
+      {
+        "name": "Ferris State Roboday",
+        "url": "https://www.thebluealliance.com/event/2023mibr"
+      }
+    ],
+    "awards": []
   },
   {
     "year": 2022,
-    "name": "Rapid React"
+    "name": "Rapid React",
+    "description": "The 2022 Rapid React competition in FRC, presented by The Boeing Company, is themed around transportation and is part of the FIRST-wide FIRST Forward theme for 2021-2022. The game involves two alliances of three teams each, with each team controlling a robot to shoot inflatable balls known as Cargo into a central Hub and climb within their Hangars at the end of the match. The objective is to score more points than the opposing alliance before the match ends. This season marked the first time since 2016 that a single championship took place in Houston, Texas, from April 20 to April 23, with 456 teams invited to compete, a reduction from over 800 teams in 2019.",
+    "competitions": [
+      {
+        "name": "Kettering Week 0 - PM",
+        "url": "https://www.thebluealliance.com/event/2022mikk2"
+      },
+      {
+        "name": "Kettering University #1",
+        "url": "https://www.thebluealliance.com/event/2022miket"
+      },
+      {
+        "name": "Jackson",
+        "url": "https://www.thebluealliance.com/event/2022mijac"
+      },
+      {
+        "name": "Kettering Kickoff - Day 2",
+        "url": "https://www.thebluealliance.com/event/2022mikk4"
+      }
+    ],
+    "awards": [
+      {
+        "event": "Jackson",
+        "award": "Imagery Award in honor of Jack Kamen"
+      },
+      {
+        "event": "Kettering University #1",
+        "award": "Team Spirit Award"
+      }
+    ]
   },
   {
     "year": 2019,
-    "name": "Destination Deep Space"
+    "name": "Destination Deep Space",
+    "description": "The 2019 Destination: Deep Space competition in FRC, presented by The Boeing Company, is a game that challenges teams to design, build, and program robots to play a game that involves two alliances of three teams each. The game focuses on the theme of space exploration, with teams controlling robots to score points by hanging game pieces on a bar and shooting game pieces into a central scoring area. The competition emphasizes teamwork, strategy, and the application of STEM principles, with the goal of advancing through the season and competing in the FIRST Championship in Houston, Texas.",
+    "competitions": [
+      {
+        "name": "Shepherd",
+        "url": "https://www.thebluealliance.com/event/2019mishe"
+      },
+      {
+        "name": "Lansing",
+        "url": "https://www.thebluealliance.com/event/2019milan"
+      }
+    ],
+    "awards": []
   }
 ]

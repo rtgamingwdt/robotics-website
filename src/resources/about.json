@@ -1,0 +1,12 @@
+{
+  "question-sections": [
+    {
+      "title": "What is FIRST Robotics?",
+      "description": "FIRST stands for (For Inspiration and Recognition of Science and Technology)"
+    },
+    {
+      "title": "Who are we?",
+      "description": "We are a high school robotics team from Morrice Area High School, located in Morrice Michigan."
+    }
+  ]
+}
